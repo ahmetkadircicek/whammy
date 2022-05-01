@@ -1,0 +1,82 @@
+.header {
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  z-index: 5;
+  
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+
+  background-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: rgba(205, 205, 205, 0.9);
+  background-color: rgba(245, 245, 245, 0.9);
+}
+
+.middle-section {
+  display: flex;
+  flex-direction: column;
+  flex: 1fr;
+  position: relative;
+}
+
+.left-section{
+  flex: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.left-section p{
+  margin-right: 8%;
+}
+
+.left-section p:hover{
+  transform: scale(1.05);
+  transition: 0.35s;
+  color: rgb(205, 0, 0) ;
+  cursor: pointer;
+}
+
+.right-section{
+  flex: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.right-section p{
+  margin-left: 8%;
+}
+
+.right-section p:hover{
+  transform: scale(1.05);
+  transition: 0.35s;
+  color: rgb(205, 0, 0) ;
+  cursor: pointer;
+}
+
+.whammy{
+  width: 320px;
+  margin-top: 64px;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+.whammy:hover{
+  width: 320px;
+  margin-top: 64px;
+  margin-left: -8px;
+  margin-right: -8px;
+  transform: scale(1.05);
+  transition: 0.35s;
+  cursor: pointer;
+}
